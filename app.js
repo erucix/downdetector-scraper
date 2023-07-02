@@ -33,6 +33,7 @@ server.listen(port, (err) => {
     if (err) {
         console.log("ERROR \n" + err)
     } else {
-        console.log("Server on port ", port)
+        console.log("[+] Server ready: ", "http://localhost:" + port)
+        console.log("[+] Example: http://localhost:" + port + "/github")
     }
 })
