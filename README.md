@@ -5,6 +5,7 @@ Paste this into your terminal.
 ```bash
 git clone https://github.com/erucix/downdetector-scraper.git
 cd downdetector-scraper
+npm i puppeteer
 node app.js
 ```
 ```downdetector.js``` can be used as independent library to get message. For example:
