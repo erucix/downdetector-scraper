@@ -8,7 +8,7 @@ class DownDetector extends EventEmitter {
         (async () => {
 
             const browser = await ppt.launch({
-                headless: false,
+                headless: "new",
                 executablePath: process.env.EXEC_PATH ? process.env.EXEC_PATH : null,
                 defaultViewport: null,
                 userDataDir: "./crawler-profile/",
